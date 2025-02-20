@@ -3,12 +3,12 @@
     RewriteEngine On
 
     # Redirect www to non-www
-    RewriteCond %{HTTP_HOST} ^www\.nugortechit\.com [NC]
-    RewriteRule ^(.*)$ https://nugortechit.com/$1 [L,R=301]
+    RewriteCond %{HTTP_HOST} ^www\.aim1world\.com [NC]
+    RewriteRule ^(.*)$ https://aim1world.com/$1 [L,R=301]
 
     # Redirect HTTP to HTTPS
     RewriteCond %{HTTPS} off
-    RewriteRule ^(.*)$ https://nugortechit.com%{REQUEST_URI} [L,R=301]
+    RewriteRule ^(.*)$ https://aim1world.com%{REQUEST_URI} [L,R=301]
 </IfModule>
 
 
