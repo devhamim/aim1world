@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
+Disallow:
 
-sitemap: https://nugortechit.com/sitemap.xml
+sitemap: https://aim1world.com/sitemap.xml
