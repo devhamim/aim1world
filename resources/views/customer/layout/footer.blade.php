@@ -35,10 +35,10 @@
                             </div>
                             <div class="mt-3">
                                 <ul class="social-icons footer_icon d-flex">
-                                    <li><a href="https://www.linkedin.com/company/nugortechitbd/" target="_blank"><i class="fi fi-brands-linkedin text-white"></i></a></li>
-                                    <li><a href="https://www.facebook.com/nugortechitcom" target="_blank"><i class="fi fi-brands-facebook text-white"></i></a></li>
-                                    <li><a href="https://www.tiktok.com/@nugortechitbd" target="_blank"><i class="fi fi-brands-tik-tok text-white"></i></a></li>
-                                    <li><a href="https://www.youtube.com/@NugortechIT" target="_blank"><i class="fi fi-brands-youtube text-white"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/aim1worldbd/" target="_blank"><i class="fi fi-brands-linkedin text-white"></i></a></li>
+                                    <li><a href="https://www.facebook.com/aim1worldcom" target="_blank"><i class="fi fi-brands-facebook text-white"></i></a></li>
+                                    <li><a href="https://www.tiktok.com/@aim1worldbd" target="_blank"><i class="fi fi-brands-tik-tok text-white"></i></a></li>
+                                    <li><a href="https://www.youtube.com/@aim1world" target="_blank"><i class="fi fi-brands-youtube text-white"></i></a></li>
                                     <li><a href="https://www.behance.net/nugortech_it" target="_blank"><i class="fi fi-brands-behance text-white"></i></a></li>
                                 </ul>
                             </div>
@@ -113,7 +113,7 @@
                         <div class="footer-bottom-copy ">
                             <div class="ec-copy text-white">
                                 @if ($setting->first()->footer != null)
-                                    {{ $setting->first()->footer }}| Design and Development By <a class="text-danger" href="https://nugortechit.com/">Nugortech it</a>. All Rights Reserved.
+                                    {{ $setting->first()->footer }}| Design and Development By <a class="text-danger" href="https://aim1world.com/">Nugortech it</a>. All Rights Reserved.
                                 @endif
                             </div>
                         </div>

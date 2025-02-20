@@ -343,7 +343,7 @@ Our team will begin working on your order shortly. Expect updates soon!
 
 Best Regards,
 Nugortech IT
-www.nugortechit.com';
+www.aim1world.com';
 
     $smsqMessage = urlencode($smsqMessage);
     $smsqMobileNumbers = '+88' .$request->customer_phone;
@@ -530,7 +530,7 @@ We are started working on your order at Nugortech IT. Our team is dedicated to d
 
 Best Regards,
 Nugortech IT
-www.nugortechit.com';
+www.aim1world.com';
 
     $smsqMessage = urlencode($smsqMessage);
     $smsqMobileNumbers = '+88' .$request->customer_phone;
@@ -564,7 +564,7 @@ Great news! Your refund for order #'.$order_id.' is complete. The refunded amoun
 
 Best Regards,
 Nugortech IT
-www.nugortechit.com';
+www.aim1world.com';
 
     $smsqMessage = urlencode($smsqMessage);
     $smsqMobileNumbers = '+88' .$request->customer_phone;
@@ -583,7 +583,7 @@ Good news! Your order #'.$order_id.' has been successfully completed. We hope yo
 
 Best Regards,
 Nugortech IT
-www.nugortechit.com';
+www.aim1world.com';
 
     $smsqMessage = urlencode($smsqMessage);
     $smsqMobileNumbers = '+88' .$request->customer_phone;
@@ -602,7 +602,7 @@ We regret to inform you that your order #'.$order_id.' has been canceled. If you
 
 Best Regards,
 Nugortech IT
-www.nugortechit.com';
+www.aim1world.com';
 
     $smsqMessage = urlencode($smsqMessage);
     $smsqMobileNumbers = '+88' .$request->customer_phone;

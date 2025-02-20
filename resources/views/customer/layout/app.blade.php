@@ -23,7 +23,7 @@
         <meta name="description" content="{{$setting->first()->meta_description}}">
     @endif --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="author" content="Nugortechit">
+    <meta name="author" content="aim1world">
 
     <!-- site Favicon -->
     @if ($setting->first()->favicon !== null)

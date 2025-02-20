@@ -30,7 +30,7 @@ class CustomerAuthController extends Controller
             $smsqApiKey = "RUJ5s4yijCz2HAQKzpMk";
             // $smsqClientId = "e9d52cb4-e058-406c-a8ac-30edee778177";
             $smsqSenderId = "8809617618342";
-            $smsqMessage = 'Your nugortechit 6 digit verify code is '.$verify_code;
+            $smsqMessage = 'Your aim1world 6 digit verify code is '.$verify_code;
 
             $smsqMessage = urlencode($smsqMessage);
             $smsqMobileNumbers = '+88' .$request->number;
@@ -53,7 +53,7 @@ class CustomerAuthController extends Controller
         //     $smsqApiKey = "OwvBJvQgd/a6OmOiw7lKD73ZUgZ9StYVMNmpmrn1vV0=";
         //     $smsqClientId = "e9d52cb4-e058-406c-a8ac-30edee778177";
         //     $smsqSenderId = "8809617620771";
-        //     $smsqMessage = 'Your nugortechit 6 digit verify code is '.$verify_code;
+        //     $smsqMessage = 'Your aim1world 6 digit verify code is '.$verify_code;
 
         //     $smsqMessage = urlencode($smsqMessage);
         //     $smsqMobileNumbers = '+88' .$request->number;
@@ -122,7 +122,7 @@ class CustomerAuthController extends Controller
 
     // customer_registers
     function customer_registers(){
-        
+
         return view('customer.customer_registers');
     }
 
@@ -150,7 +150,7 @@ class CustomerAuthController extends Controller
             $smsqApiKey = "RUJ5s4yijCz2HAQKzpMk";
             // $smsqClientId = "e9d52cb4-e058-406c-a8ac-30edee778177";
             $smsqSenderId = "8809617618342";
-            $smsqMessage = 'Your nugortechit 6 digit verify code is '.$mobile_verify;
+            $smsqMessage = 'Your aim1world 6 digit verify code is '.$mobile_verify;
 
             $smsqMessage = urlencode($smsqMessage);
             $smsqMobileNumbers = '+88' .$request->phone;

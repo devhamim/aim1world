@@ -63,7 +63,7 @@ if (serviceOrderCart::where('id', $request->id)->exists()) {
             'discount' => 0,
             'paid' => $serviceOrderCart->total,
             'due' => 0,
-            'company_name' => 'Nugortechit',
+            'company_name' => 'aim1world',
             'lead_customer' => 1,
             'order_note' => $serviceOrderCart->note,
             'created_at' => Carbon::now(),
@@ -79,7 +79,7 @@ if (serviceOrderCart::where('id', $request->id)->exists()) {
             'discount' => 0,
             'paid' => 0,
             'due' => $serviceOrderCart->total,
-            'company_name' => 'Nugortechit',
+            'company_name' => 'aim1world',
             'lead_customer' => 1,
             'order_note' => $serviceOrderCart->note,
             'created_at' => Carbon::now(),
@@ -138,7 +138,7 @@ Our team will begin working on your order shortly. Expect updates soon!
 
 Best Regards,
 Nugortech IT
-www.nugortechit.com';
+www.aim1world.com';
 
     $smsqMessage = urlencode($smsqMessage);
     $smsqMobileNumbers = '+88' .$serviceOrderCart->phone;

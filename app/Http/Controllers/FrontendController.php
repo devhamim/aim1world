@@ -172,7 +172,7 @@ class FrontendController extends Controller
     $smsqApiKey = "RUJ5s4yijCz2HAQKzpMk";
     // $smsqClientId = "e9d52cb4-e058-406c-a8ac-30edee778177";
     $smsqSenderId = "8809617618342";
-    $smsqMessage = 'Your nugortechit 6 digit verify code is '.$mobile_verify;
+    $smsqMessage = 'Your Aim World 6 digit verify code is '.$mobile_verify;
 
     $smsqMessage = urlencode($smsqMessage);
     $smsqMobileNumbers = '+88' .$request->phone;
@@ -251,7 +251,7 @@ class FrontendController extends Controller
                 $request->session()->forget('phone_number');
 
                 $apiKey = "c3684b1473dc5b5ab83ec6c9786a4367881b2cae";
-                $apiBaseURL = "https://pay.nugortechit.com/api/checkout-v2";
+                $apiBaseURL = "https://pay.aim1world.com/api/checkout-v2";
                 $uddoktaPay = new UddoktaPay($apiKey, $apiBaseURL);
 
                 $requestData = [
@@ -410,7 +410,7 @@ function auth_pay_due(Request $request){
     $request->session()->put('service_cart_id', $service_cart_id);
 
     $apiKey = "c3684b1473dc5b5ab83ec6c9786a4367881b2cae";
-    $apiBaseURL = "https://pay.nugortechit.com/api/checkout-v2";
+    $apiBaseURL = "https://pay.aim1world.com/api/checkout-v2";
     $uddoktaPay = new UddoktaPay($apiKey, $apiBaseURL);
 
     $requestData = [

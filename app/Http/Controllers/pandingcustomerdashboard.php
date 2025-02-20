@@ -40,7 +40,7 @@ class pandingcustomerdashboard extends Controller
         $request->session()->put('service_cart_id', $service_cart_id);
 
         $apiKey = "c3684b1473dc5b5ab83ec6c9786a4367881b2cae";
-        $apiBaseURL = "https://pay.nugortechit.com/api/checkout-v2";
+        $apiBaseURL = "https://pay.aim1world.com/api/checkout-v2";
         $uddoktaPay = new UddoktaPay($apiKey, $apiBaseURL);
 
         $requestData = [
